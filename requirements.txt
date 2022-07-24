@@ -1,3 +1,5 @@
 django
 django-allauth
 django-environ
+
+python-webpack-boilerplate
