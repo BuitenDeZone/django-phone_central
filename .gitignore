@@ -4,3 +4,6 @@
 # python venv
 /venv/
 *.pyc
+
+# npm
+**/node_modules/*
