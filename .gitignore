@@ -3,3 +3,4 @@
 
 # python venv
 /venv/
+*.pyc
