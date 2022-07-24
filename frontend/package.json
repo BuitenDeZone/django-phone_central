@@ -1,7 +1,8 @@
 {
-  "name": "python-webpack-boilerplate",
+  "name": "python-webpack-phone_central",
   "version": "1.0.0",
   "description": "Webpack boilerplate for Django & Flask",
+  "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
     "start": "webpack serve --config webpack/webpack.config.dev.js",
@@ -9,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AccordBox/python-webpack-boilerplate"
+    "url": "https://github.com/BuitenDeZone/django-phone_central"
   },
   "keywords": [
     "webpack",
     "startkit",
     "frontend"
   ],
-  "author": "Michael Yin",
+  "author": "Jan Vansteenkiste",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AccordBox/python-webpack-boilerplate/issues"
+    "url": "https://github.com/BuitenDeZone/django-phone_central/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
