@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'webpack_boilerplate',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
