@@ -23,6 +23,7 @@
     "url": "https://github.com/BuitenDeZone/django-phone_central/issues"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
@@ -51,7 +52,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "core-js": "^3.20.3"
+    "bootstrap": "^5.2.0",
+    "core-js": "^3.20.3",
+    "@popperjs/core": "^2.11.5"
   }
 }
