@@ -1,0 +1,35 @@
+{% load webpack_loader static bootstrap5 %}
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap" rel="stylesheet"/>
+    <meta name="description" content="Phone central is a discord management/tooling/bot? thing."/>
+    <link rel="icon" href="{% static 'logo.svg' %}" type="image/svg+xml"/>
+    {% stylesheet_pack 'main' %}
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="g-col-4">
+            <a class="navbar-brand align-bottom" href="#"><img src="{% static 'logo.svg' %}"/>Phone Central</a>
+        </div>
+        <div class="g-col-8">
+            Login stuff
+        </div>
+    </nav>
+</header>
+{% bootstrap_messages %}
+<main class="container-fluid">
+{% block content %}
+{% endblock %}
+</main>
+
+{% javascript_pack 'main' attrs='charset="UTF-8"' %}
+</body>
+</html>
