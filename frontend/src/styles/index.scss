@@ -3,6 +3,23 @@
 
 @import "colors.scss";
 
-$primary: $field-drab;
 
 @import "~bootstrap/scss/bootstrap.scss";
+
+html {
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+
+  img {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
