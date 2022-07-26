@@ -1,6 +1,7 @@
 django
 django-allauth
 django-environ
+django-split-settings
 
 python-webpack-boilerplate
 
