@@ -7,3 +7,15 @@ python-webpack-boilerplate
 
 # We are only using this for helpers. Bootstrap js/css comes from webpack
 django-bootstrap-v5
+
+# development utilities
+invoke
+pylint # Used in IntelliJ
+flake8
+flake8-per-file-ignores
+flake8-docstrings
+flake8-tidy-imports
+flake8-commas
+flake8-string-format
+flake8-pep3101 # Use .format <-> %
+flake8-builtins

@@ -1,0 +1,9 @@
+[flake8]
+ignore = D202
+max-line-length = 120
+
+
+per-file-ignores =
+    settings/*: F403, F401 
+        # F403: We use star imports in settings files.
+        # F401: We might not use these imports from other settings files, but they are required.
