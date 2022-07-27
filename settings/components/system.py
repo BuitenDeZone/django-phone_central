@@ -19,6 +19,9 @@ INSTALLED_APPS = [
     # frontend
     'webpack_boilerplate',
     'bootstrap5',
+
+    # ourselves
+    'phone_central',
 ]
 
 MIDDLEWARE = [
