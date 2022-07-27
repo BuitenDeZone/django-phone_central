@@ -19,3 +19,5 @@ STATICFILES_DIRS = [
 WEBPACK_LOADER = {
     'MANIFEST_FILE': BASE_DIR / 'frontend/build/manifest.json',
 }
+
+SITE_DOMAIN = 'dev.buitendezone.be'
